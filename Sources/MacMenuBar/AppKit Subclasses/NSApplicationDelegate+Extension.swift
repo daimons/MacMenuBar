@@ -39,7 +39,7 @@ fileprivate func _setMenuBar<MenuBarType: MenuBar>(to menuBar: MenuBarType)
     }
 }
 
-// -------------------------------------
+@available(macOS 11.0, *)
 public extension SwiftUI.App
 {
     // -------------------------------------
